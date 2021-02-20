@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>imp&#39;s blog</title>
   
-  
+  <subtitle>我是一阵自由的风。</subtitle>
   <link href="https://imp2002.com/atom.xml" rel="self"/>
   
   <link href="https://imp2002.com/"/>
-  <updated>2021-02-19T14:54:58.942Z</updated>
+  <updated>2021-02-20T06:40:28.899Z</updated>
   <id>https://imp2002.com/</id>
   
   <author>
@@ -17,20 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇</title>
+    <title>《第 零 篇》</title>
     <link href="https://imp2002.com/2021/02/19/blog0/"/>
     <id>https://imp2002.com/2021/02/19/blog0/</id>
     <published>2021-02-19T14:52:53.000Z</published>
-    <updated>2021-02-19T14:54:58.942Z</updated>
+    <updated>2021-02-20T06:40:28.899Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>~~~<br>~~五</p><a id="more"></a><p>kjdjf</p><p>###dabiaoti<br><strong>jsjg</strong></p>]]></content>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;~~~&lt;br&gt;~~五&lt;/p&gt;</summary>
+    <content type="html"><![CDATA[<hr><p>关于我见<a href="https://imp2002.com/about">此页面</a></p><p>自带的代码高亮和行号还没调好，<del>可能</del>不是很好看，<del>以后再调</del>。</p><p>但诸如阅读时长，阅读量这些可能不会有。  </p><p>顶部图，背景图，头像之类的在考虑加不加</p><p><strong>试一下latex：</strong><br>$$\frac{x+y}{y+z}$$</p><p><strong><em>试一下markdown：</em></strong></p><p><code>文字只会这种高亮</code></p><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h></span></span><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span><span class="token keyword">template</span><span class="token operator">&lt;</span><span class="token keyword">typename</span> <span class="token class-name">T</span><span class="token operator">></span><span class="token keyword">void</span> <span class="token function">read</span><span class="token punctuation">(</span>T <span class="token operator">&amp;</span>a<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    T x<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span> f<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span> <span class="token keyword">char</span> ch<span class="token operator">=</span><span class="token function">getchar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token operator">!</span><span class="token function">isdigit</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>        <span class="token keyword">if</span><span class="token punctuation">(</span>ch<span class="token operator">=</span><span class="token string">'-'</span><span class="token punctuation">)</span> f<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span> ch<span class="token operator">=</span><span class="token function">getchar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">&#125;</span>    <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">isdigit</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>        x<span class="token operator">=</span><span class="token punctuation">(</span>x<span class="token operator">&lt;&lt;</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">+</span><span class="token punctuation">(</span>x<span class="token operator">&lt;&lt;</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token operator">+</span>ch<span class="token operator">-</span><span class="token string">'0'</span><span class="token punctuation">;</span> ch<span class="token operator">=</span><span class="token function">getchar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">&#125;</span>    a<span class="token operator">=</span>f <span class="token operator">?</span> x <span class="token operator">:</span> <span class="token operator">-</span>x<span class="token punctuation">;</span><span class="token punctuation">&#125;</span><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    ios<span class="token operator">::</span><span class="token function">sync_with_stdio</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span> cin<span class="token punctuation">.</span><span class="token function">tie</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span> cout<span class="token punctuation">.</span><span class="token function">tie</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> t<span class="token punctuation">;</span> cin <span class="token operator">>></span> t<span class="token punctuation">;</span>    <span class="token keyword">while</span><span class="token punctuation">(</span>t<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    <span class="token punctuation">&#125;</span>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span>   <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><hr>]]></content>
     
     
+    <summary type="html">这是第0篇blog。</summary>
     
+    
+    
+    
+    <category term="杂" scheme="https://imp2002.com/tags/%E6%9D%82/"/>
     
   </entry>
   
